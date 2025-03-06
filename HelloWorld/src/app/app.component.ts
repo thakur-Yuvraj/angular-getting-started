@@ -12,6 +12,8 @@ export class AppComponent {
 
   url = "https://www.bridgelabz.com";
   imgUrl = "https://i.pinimg.com/736x/71/d9/a9/71d9a9a5614ec8a9a17079ace15f10a0.jpg";
+  
+  userName: string = "";
 
   ngOnInit(): void {
     this.title = "Hello from brigdeLabz ! ";
